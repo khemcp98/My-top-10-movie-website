@@ -77,7 +77,7 @@ def add():
     if form.validate_on_submit():
         headers = {
             "accept": "application/json",
-            "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNjdmZjc2ZDBhMTI3ODA5Mzg4NTNjYTA4Y2NjZDQwMSIsInN1YiI6IjY0ODk2YTEzZDJiMjA5MDEwYzFiNzAyMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6S_56rXM3fw6R3utJ4pIqMe3I-Xrmn-lV8kc2FFo5aA"
+            "Authorization": "Bearer THE MOVIE DATABASE AUTHORIZATION TOKEN"
         }
         params = {
             'query': form.add_movie.data,
